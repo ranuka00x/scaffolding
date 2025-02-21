@@ -11,7 +11,7 @@ def create_folders(folder_list):
             print(f"Error creating directory {folder}: {e}", file=sys.stderr)
 
 def main():
-    # Define a list of folder paths as you need
+    # Define a list of folder paths as you need.
     folders = [
         "./tests",
         "./infra/terraform/modules/aks",
